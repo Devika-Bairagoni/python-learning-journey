@@ -1,0 +1,15 @@
+INFO: Server started on port 8000
+INFO: Database connection established
+DEBUG: Config loaded from environment
+INFO: Health check endpoint registered
+WARNING: Memory usage at 78%
+INFO: Request received: GET /api/users
+ERROR: Database query timeout after 5000ms
+INFO: Request received: POST /api/data
+WARNING: Rate limit approaching for client 192.168.1.10
+ERROR: Null reference in user_service.py line 142
+INFO: Cache refreshed successfully
+DEBUG: Scheduled job triggered: cleanup_expired_sessions
+INFO: Request received: GET /api/health
+ERROR: Failed to write to audit log: Permission denied
+INFO: Graceful shutdown initiated
