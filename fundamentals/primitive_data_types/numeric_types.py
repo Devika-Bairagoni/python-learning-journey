@@ -1,20 +1,11 @@
 """
-Module: memory_reference_demo
-Purpose:
-Demonstrates Python variable assignment,
-memory references, and dynamic typing.
+Demonstrates numeric data types in Python.
 """
 
-student_name = "Devika"
-student_age = 20
-is_enrolled = True
+integer_value = 100
+floating_point_value = 99.99
+complex_number = 2 + 4j
 
-print(f"Student Name: {student_name}")
-print(f"Student Age: {student_age}")
-print(f"Enrollment Status: {is_enrolled}")
-
-print("\nMemory Addresses:")
-
-print(id(student_name))
-print(id(student_age))
-print(id(is_enrolled))
+print(type(integer_value))
+print(type(floating_point_value))
+print(type(complex_number))
