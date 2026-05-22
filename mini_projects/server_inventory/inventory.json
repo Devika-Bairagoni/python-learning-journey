@@ -1,0 +1,74 @@
+{
+  "servers": [
+    {
+      "id": "srv-001",
+      "name": "api-server-01",
+      "region": "us-east-1",
+      "type": "application",
+      "specs": {
+        "cpu_cores": 4,
+        "memory_gb": 16,
+        "storage_gb": 100
+      },
+      "status": "running",
+      "cpu_usage": 45.2,
+      "uptime_days": 42
+    },
+    {
+      "id": "srv-002",
+      "name": "db-server-01",
+      "region": "us-east-1",
+      "type": "database",
+      "specs": {
+        "cpu_cores": 8,
+        "memory_gb": 32,
+        "storage_gb": 500
+      },
+      "status": "running",
+      "cpu_usage": 78.9,
+      "uptime_days": 42
+    },
+    {
+      "id": "srv-003",
+      "name": "cache-server-01",
+      "region": "us-west-2",
+      "type": "cache",
+      "specs": {
+        "cpu_cores": 2,
+        "memory_gb": 8,
+        "storage_gb": 50
+      },
+      "status": "degraded",
+      "cpu_usage": 91.3,
+      "uptime_days": 15
+    },
+    {
+      "id": "srv-004",
+      "name": "api-server-02",
+      "region": "us-west-2",
+      "type": "application",
+      "specs": {
+        "cpu_cores": 4,
+        "memory_gb": 16,
+        "storage_gb": 100
+      },
+      "status": "stopped",
+      "cpu_usage": 0.0,
+      "uptime_days": 0
+    },
+    {
+      "id": "srv-005",
+      "name": "backup-server-01",
+      "region": "eu-west-1",
+      "type": "backup",
+      "specs": {
+        "cpu_cores": 2,
+        "memory_gb": 8,
+        "storage_gb": 2000
+      },
+      "status": "running",
+      "cpu_usage": 12.1,
+      "uptime_days": 90
+    }
+  ]
+}
