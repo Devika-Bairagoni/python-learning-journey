@@ -1,0 +1,21 @@
+{
+  "app_name": "MyBackendService",
+  "version": "1.0.0",
+  "environment": "production",
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "debug": false,
+    "workers": 4
+  },
+  "database": {
+    "host": "db.myapp.com",
+    "port": 5432,
+    "name": "prod_db",
+    "pool_size": 10
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "json"
+  }
+}
