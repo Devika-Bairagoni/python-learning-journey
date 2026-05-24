@@ -1,0 +1,10 @@
+date,time,category,activity,duration_minutes,notes
+2024-01-15,09:00,learning,Python variables,45,Completed fundamentals module
+2024-01-15,10:00,coding,Built log analyzer,90,First mini project complete
+2024-01-15,14:00,learning,Git and GitHub,30,Learned commit and push
+2024-01-16,09:00,learning,Loops and iteration,60,for while range enumerate
+2024-01-16,11:00,coding,Grade processor project,75,CSV parsing and report generation
+2024-01-16,15:00,review,Code review and cleanup,30,Improved function names
+2024-01-17,09:00,learning,Dictionaries and JSON,60,Nested structures and comprehensions
+2024-01-17,11:00,coding,Server inventory manager,90,JSON loading and grouping
+2024-01-17,14:00,learning,Exception handling,45,Custom exceptions and defensive patterns2026-05-24,21:59,learning,File handling and pathlib,60,Day 6 complete

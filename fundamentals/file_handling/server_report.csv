@@ -1,0 +1,5 @@
+name,status,cpu_usage,alert
+api-server-01,running,45.2,OK
+db-server-01,running,78.9,OK
+cache-01,degraded,91.3,HIGH CPU
+api-server-02,stopped,0.0,OK

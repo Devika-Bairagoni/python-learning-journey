@@ -1,0 +1,5 @@
+Line 1: Server started
+Line 2: Database connected
+Line 3: Listening on port 8000
+Line 4: New connection accepted
+Line 5: Request processed
