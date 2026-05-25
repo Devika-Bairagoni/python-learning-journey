@@ -1,0 +1,19 @@
+2026-05-25 12:21:09 | INFO     | api_simulator | API simulator started
+2026-05-25 12:21:09 | INFO     | api_simulator | Creating user: name='Alice Johnson' email='alice@company.com'
+2026-05-25 12:21:09 | INFO     | api_simulator | User created: id=1 email=alice@company.com
+2026-05-25 12:21:09 | INFO     | api_simulator | Creating user: name='Bob Smith' email='bob@company.com'
+2026-05-25 12:21:09 | INFO     | api_simulator | User created: id=2 email=bob@company.com
+2026-05-25 12:21:09 | INFO     | api_simulator | Creating user: name='Carol White' email='carol@company.com'
+2026-05-25 12:21:09 | INFO     | api_simulator | User created: id=3 email=carol@company.com
+2026-05-25 12:21:09 | INFO     | api_simulator | Creating user: name='Alice Again' email='alice@company.com'
+2026-05-25 12:21:09 | WARNING  | api_simulator | Duplicate email attempt: alice@company.com
+2026-05-25 12:21:09 | INFO     | api_simulator | Creating user: name='Dave' email='not-an-email'
+2026-05-25 12:21:09 | ERROR    | api_simulator | User creation failed: Invalid email format: 'not-an-email'
+2026-05-25 12:21:09 | INFO     | api_simulator | Listing all users. Total: 3
+2026-05-25 12:21:09 | INFO     | api_simulator | Fetching user: id=1
+2026-05-25 12:21:09 | INFO     | api_simulator | Fetching user: id=999
+2026-05-25 12:21:09 | WARNING  | api_simulator | User not found: id=999
+2026-05-25 12:21:09 | INFO     | api_simulator | Deleting user: id=2
+2026-05-25 12:21:09 | INFO     | api_simulator | User deleted: id=2
+2026-05-25 12:21:09 | INFO     | api_simulator | Listing all users. Total: 2
+2026-05-25 12:21:09 | INFO     | api_simulator | API simulator completed
