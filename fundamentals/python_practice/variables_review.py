@@ -19,3 +19,13 @@ if cpu_usage > 80:
     print("WARNING: CPU is too high")
 else:
     print("CPU is normal")
+    # A simple function I wrote myself
+def check_server_health(name, cpu):
+    if cpu > 80:
+        print(f"ALERT: {name} CPU is {cpu}% - needs attention")
+    else:
+        print(f"OK: {name} CPU is {cpu}% - healthy")
+
+check_server_health("api-server-01", 45.6)
+check_server_health("db-server-01", 92.3)
+check_server_health("cache-01", 78.1)
