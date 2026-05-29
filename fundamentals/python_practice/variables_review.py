@@ -3,7 +3,7 @@
 server_name = "api-server-01"
 server_port = 8000
 is_running = True
-cpu_usage = 92.3
+cpu_usage = 45.6
 
 print(server_name)
 print(server_port)
@@ -23,6 +23,8 @@ else:
 def check_server_health(name, cpu):
     if cpu > 80:
         print(f"ALERT: {name} CPU is {cpu}% - needs attention")
+    elif cpu > 60:
+        print(f"WARNING: {name} CPU is {cpu}% - watch closely")
     else:
         print(f"OK: {name} CPU is {cpu}% - healthy")
 
