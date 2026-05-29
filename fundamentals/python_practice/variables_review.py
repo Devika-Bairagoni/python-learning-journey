@@ -31,3 +31,14 @@ def check_server_health(name, cpu):
 check_server_health("api-server-01", 45.6)
 check_server_health("db-server-01", 92.3)
 check_server_health("cache-01", 78.1)
+
+def  check_memory_health(name,memory_used_percent):
+    if memory_used_percent > 90:
+        print(f"ALERT: {name} Memory usage is {memory_used_percent}% - needs attention")
+    elif memory_used_percent > 70:
+        print(f"WARNING: {name} Memory usage is {memory_used_percent}% - watch closely")
+    else:
+        print(f"OK: {name} Memory usage is {memory_used_percent}% - healthy")
+check_memory_health("api-server-01", 55.0)
+check_memory_health("db-server-01", 87.3)
+check_memory_health("cache-01", 94.1)
