@@ -1,4 +1,5 @@
 # A list of numbers representing response times in milliseconds
+
 response_times = [120, 340, 89, 210, 456, 78, 390, 145]
 
 # Print all response times
