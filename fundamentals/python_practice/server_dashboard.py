@@ -38,4 +38,17 @@ def server_dashboard(server_list):
     
     print("=" * 50)
 
-server_dashboard(servers)
+
+def show_critical_servers(server_list):
+    print("\n  CRITICAL SERVERS:")
+    for server in server_list:
+        status = get_health_status(server["cpu"], server["memory"])
+        if status == "CRITICAL":
+            print(f"    {server['name']} - CPU:{server['cpu']}%  MEM:{server['memory']}%")
+
+show_critical_servers(servers)
+
+
+
+
+
